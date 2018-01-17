@@ -71,6 +71,9 @@ pub extern crate winit;
 
 #[macro_use]
 extern crate derivative;
+extern crate fern;
+#[macro_use]
+extern crate log;
 extern crate rayon;
 extern crate rustc_version_runtime;
 
